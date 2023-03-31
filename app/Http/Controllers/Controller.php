@@ -19,13 +19,15 @@ class Controller extends BaseController
     public function dizayn()
     {
         return view('d');
+
+
     }
 
     public function vhod(Request $request)
     {
         $request->login;
 
-        dd('отту');
+        //dd('отту');
 //return view('d');
     }
 

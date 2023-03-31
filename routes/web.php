@@ -30,6 +30,7 @@ Route::get('dizayn',[\App\Http\Controllers\Controller::class,'dizayn']);
 //Route::post('vhod',[Controller::class,'vhod'])->middleware(Cheklogin::class);
 Route::post('vhod',[Controller::class,'vhod'])->middleware('teksher');
 
+//eferger5re5 ewger5yhr6t eryhret5uhyr erthurt5ujhr
 
 Route::get('forma',[\App\Http\Controllers\Controller::class,'forma']);
 Route::post('validate',[\App\Http\Controllers\Controller::class,'validate']);
