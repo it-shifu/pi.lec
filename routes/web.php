@@ -32,5 +32,8 @@ Route::post('vhod',[Controller::class,'vhod'])->middleware('teksher');
 
 //eferger5re5 ewger5yhr6t eryhret5uhyr erthurt5ujhr
 
+///swfdswerfgtertgert
+/// afdwefwregege
+
 Route::get('forma',[\App\Http\Controllers\Controller::class,'forma']);
 Route::post('validate',[\App\Http\Controllers\Controller::class,'validate']);
